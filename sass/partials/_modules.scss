@@ -1,0 +1,289 @@
+.about-us{
+    &-s1{
+        background-image: url("../img/about-us/about-us-s1__bg.jpg");
+        background-size: cover;
+        background-position: top left;
+        background-blend-mode: multiply;
+        min-height: 600px;
+    }
+    &-s3{
+        background-image: url("../img/about-us/about-us-s3__bg.jpg");
+        background-size: cover;
+        background-position: top right;
+        min-height: 400px;
+    }
+    &-s5{
+        background-image: url("../img/about-us/about-us-s5__bg.jpg");
+        background-size: cover;
+        background-position: top right;
+        min-height: 400px;
+    }
+}
+.bg{
+    &-green{
+        background-color: $font-logo__color;
+    }
+    &-light-gray{
+        background-color: #dcdfe4;
+    }
+}
+.border{
+    &-gray{
+        border-color: $color-gray!important;
+    }
+    &-green{
+        border-color: $font-logo__color !important;
+    }
+    &-tag{
+        &-left{
+            border-left: 5px solid $font-logo__color;
+        }
+    }
+}
+.font{
+    &-logo{
+        font-family: $font-logo__family;
+        font-size: $font-logo__font-size;
+        font-weight: $font-logo__font-weight;
+        letter-spacing: $font-logo__letter-spacing;
+    }
+    &-menu{
+        font-size: $font-menu__font-size;
+    }
+    &-shadow{
+        text-shadow: $font-shadow;
+    }
+}
+.form{
+    &-control{
+        &[type="text"],&[type="date"],&[type="tel"],&[type="email"]{
+            &:focus{
+                box-shadow: none;
+                outline: none;
+            }
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            border-bottom: 2px solid #bbb;
+            border-radius: 0;
+            opacity: 0.7;
+
+        }
+    }
+}
+.get-started{
+    &-s1{
+        background-image: url("../img/get-started/get-started-s1__bg.jpg");
+        background-size: cover;
+        background-position: top left;
+        background-blend-mode: multiply;
+        min-height: 600px;
+    }
+    &-s3{
+        background-image: url("../img/get-started/get-started-s3__bg.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+.gradient{
+    &-spacer{
+        background-image: linear-gradient(180deg,$gradient-spacer__color-start -20px,$gradient-spacer__color-end);
+        height: $gradient-spacer__height;
+        width: $gradient-spacer__width;
+    }
+}
+.hover{
+    &-green{
+        &:hover{
+            & .text-logo{
+                color: #fff;
+            }
+            color: $font-logo__color !important;
+        }
+    }
+    &-bold{
+        &:hover{
+            font-weight: bold !important;
+        }
+    }
+    &-light-gray{
+        &:hover{
+            color: $color-light-gray !important;
+        }
+    }
+}
+.icon{
+    font-size: $icon-size !important;
+}
+.list{
+    &-container{
+        background-color: #ddd;
+        border: 1px solid #ccc;
+        border-bottom: 2px solid #bbb;
+        border-radius: 0;
+        opacity: 0.7;
+        min-height: 40px;
+        width: 100%;
+    }
+    &-group-item{
+        &.active{
+            background-color: $font-logo__color;
+            color:#fff !important;
+            border-color: #fff !important;
+        }
+    }
+}
+.locations{
+    &-s1{
+        background-image: url("../img/locations/locations-s1__bg.jpg");
+        background-size: cover;
+        background-position: top left;
+        background-blend-mode: multiply;
+        min-height: 600px;
+    }
+    &-s3{
+        background-image: url("../img/locations/locations-s3__bg.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+.minh{
+    &-25vh{
+        min-height: 25vh;
+    }
+    &-50vh{
+        min-height: 50vh;
+    }
+    &-75vh{
+        min-height: 75vh;
+    }
+    &-100vh{
+        min-height: 100vh;
+    }
+}
+.index{
+    &-s1{
+        background-image: url("../img/index/index-s1__bg.jpg");
+        background-size: cover;
+        background-position: top center;
+        background-blend-mode: multiply;
+        min-height: 600px;
+    }
+    &-s3{
+        background-image: url("../img/index/care.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+.navbar{
+    &-toggler{
+        &-icon{
+            height: $navbar-toggler__size;
+            width: $navbar-toggler__size;
+        }
+    }
+}
+.opacity{
+    &-7{
+        opacity: 0.7;
+    }
+    &-8{
+        opacity: 0.8;
+    }
+    &-9{
+        opacity: 0.9;
+    }
+}
+.privacy{
+    &-s1{
+        background-image: url("../img/privacy/privacy-s1__bg.jpg");
+        background-size: cover;
+        background-position: top center;
+        background-blend-mode: multiply;
+        min-height: 600px;
+    }
+}
+.rotate{
+    &--15deg{
+        transform: rotate(-15deg);
+    }
+}
+.shadow{
+    &-green{
+        box-shadow: 0px 0px 5px $font-logo__color;
+    }
+}
+.test{
+    &-menu{        
+        &-s1{
+            background-image: url("../img/test-menu/test-menu-s1__bg.jpg");
+            background-size: cover;
+            background-position: top left;
+            background-blend-mode: multiply;
+            min-height: 600px;
+        }
+        &-s3{
+            background-image: url("../img/test-menu/test-menu-s3__bg.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+.tile{
+    &-thumb{
+        border: 4px solid #fff;
+    }
+}
+.text{
+    &-green{
+        color: $font-logo__color;
+    }
+    &-logo{
+        color: $font-logo__color;
+    }
+}
+.user{
+    &-s1{
+        background-image: url("../img/user/user-s1__bg.jpg");
+        background-size: cover;
+        background-position: top center;
+        background-blend-mode: multiply;
+        min-height: 600px;
+    }
+    &-s3{
+        background-image: url("../img/user/user-s3__bg.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+.v{
+    &-middle{
+        vertical-align: middle;
+    }
+}
+
+footer{
+    background-color: $footer__bg-color;
+}
+
+select{
+    &:focus{
+        box-shadow: none !important;
+        outline: none !important;
+    }
+    background-color: #ddd !important;
+    border: 1px solid #ccc !important;
+    border-bottom: 2px solid #bbb !important;
+    border-radius: 0 !important;
+    opacity: 0.7 !important;
+
+}
+
+@media all and (max-height:600px){
+    .about-us-s1, .index-s1, .get-started-s1, .locations-s1, .test-menu-s1,.privacy-s1{
+        min-height: 100vh;
+    }
+    .user-s1{
+        min-height: 75vh;
+    }
+}

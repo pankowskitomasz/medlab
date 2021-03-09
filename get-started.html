@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="icon" href="img/favicon.png"/>
+    <title>Medlab | Get started</title>
+</head>
+<body>
+    <header class="position-absolute w-100 opacity-9">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a href="index.html" class="navbar-brand px-2">
+                <span class="navbar-text font-logo text-white font-shadow hover-green">
+                    M<span class="text-logo rotate--15deg d-inline-block">e</span>dlab
+                </span>
+            </a>
+            <button class="navbar-toggler p-1 me-3" 
+                data-bs-toggle="collapse"
+                data-bs-target="#main-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="nav navbar-nav ms-auto text-uppercase fw-bold px-4 font-menu text-end font-shadow">
+                    <li class="nav-item">
+                        <a href="get-started.html" class="nav-link text-light hover-green">Get started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="test-menu.html" class="nav-link text-light hover-green">Test menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="locations.html" class="nav-link text-light hover-green">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link text-light hover-green">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about-us.html" class="nav-link text-light hover-green">About us</a>
+                    </li>
+                    <li class="nav-item ms-md-3">
+                        <a href="user.html" class="nav-link text-light border border-light px-2 py-1 mt-1 btn-outline-success rounded-pill d-inline-block">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="get-started-s1 container-fluid bg-secondary d-flex align-items-end py-4">
+            <div class="row w-100 mx-0">
+                <div class="col-11 col-sm-9 col-md-7 col-lg-5 mx-auto text-white text-center font-shadow">
+                    <h2 class="display-4 font-logo">Get started now</h2>
+                    <p class="initialism">
+                        More than 80% of physician's decisions are based on information gained 
+                        from blood testing. Which means that laboratory tests are one of the most 
+                        important parts of medical diagnostics.
+                    </p>
+                    <div class="text-center">
+                        <a href="#register" class="btn btn-sm btn-success bg-green text-white mx-2">
+                            Register by phone
+                        </a>
+                        <a href="#register" class="btn btn-sm btn-success bg-green text-white mx-2">
+                            Register online
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="gradient-spacer"></div>
+        <section class="get-started-s2 container minh-50vh bg-white d-flex align-items-center py-4" id="register">
+            <div class="row w-100 mx-0">
+                <div class="col-12 border-bottom">
+                    <h1 class="lead text-muted text-start">
+                        Register now
+                    </h1>
+                </div>
+                <div class="col-12 my-4">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <button class="nav-link text-muted active" data-bs-toggle="tab" data-bs-target="#phone">
+                                By Phone
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link text-muted" data-bs-toggle="tab" data-bs-target="#online">
+                                Online
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-3">
+                        <div class="tab-pane text-muted show active" id="phone">
+                            <p class="fw-bold text-green">
+                                How to register by phone
+                            </p>
+                            <p>
+                                Before calling our consultants please prepare appropriate information. 
+                                Our consultant will ask for following information about you: 
+                            </p>
+                            <ul class="text-green fw-bold">
+                                <li>First Name</li>
+                                <li>Last Name</li>
+                                <li>Birth date</li>
+                                <li>Social Security Number</li>
+                                <li>Address</li>
+                                <li>Phone number</li>
+                                <li>Email address</li>
+                                <li>List of tests you need to make</li>
+                            </ul>
+                            <p>
+                                When you will be ready, please call our registration center:
+                            </p>
+                            <p class="h5 text-center fw-bold text-green my-3">
+                                +(01) 0-800 273-456-234
+                            </p> 
+                            <p>
+                                Our consultant will ask you for your personal data and the tests you need 
+                                to make. Basing on this information our consultant will provide you information 
+                                about the localization of nearest to you testing centers. When you 
+                                choose location, you will receive list of available terms. After choosing 
+                                one our employee will make reservation for you and send you email with 
+                                reservation details. It's done, your reservation was made!
+                            </p>
+                        </div>
+                        <div class="tab-pane text-muted" id="online">
+                            <p class="fw-bold text-green">
+                                How to register online
+                            </p>
+                            <p class="mb-5">
+                                In order to register online please fill the registration form below. Shortly
+                                after you send it you will receive email in which you will be asked to 
+                                confirm your request. It's done, your reservation was made!
+                            </p>
+                            <form action="register.php"
+                                class="card p-3 col-12 col-md-8 col-lg-6 mx-auto registration-form shadow"
+                                method="post"
+                                autocomplete="off">
+                                <div class="row w-100 mx-auto">
+                                    <div class="col-12 border-bottom mb-3">
+                                        <p class="fw-bold text-green mb-1">
+                                            Registration
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-md-4">
+                                        <label class="text-green pt-3">
+                                            First name
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8 mt-2">
+                                        <input type="text" class="form-control" name="firstname" tabindex="1"
+                                            placeholder="First name" maxlength="30"
+                                            required/>
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-md-4">
+                                        <label class="text-green pt-3">
+                                            Last name
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8 mt-2">
+                                        <input type="text" class="form-control" name="lastname" tabindex="2"
+                                            placeholder="Last name" maxlength="30"
+                                            required/>
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-md-4">
+                                        <label class="text-green pt-3">
+                                            Birth date
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8 mt-2">
+                                        <input type="date" class="form-control text-muted" name="birthdate" tabindex="3"
+                                            min="" max="" required/>
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-md-4">
+                                        <label class="text-green pt-3">
+                                            SSN
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8 mt-2">
+                                        <input type="text" class="form-control" name="ssn" tabindex="4"
+                                            placeholder="Social Security Number" maxlength="12"
+                                            required/>
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-md-4">
+                                        <label class="text-green pt-3">
+                                            Address
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8 mt-2">
+                                        <input type="text" class="form-control" name="address" tabindex="5"
+                                            placeholder="Address" maxlength="100"required/>
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-md-4">
+                                        <label class="text-green pt-3">
+                                            Phone
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8 mt-2">
+                                        <input type="tel" class="form-control" name="phone" tabindex="6"
+                                            placeholder="Phone number" maxlength="20"required/>
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-md-4">
+                                        <label class="text-green pt-3">
+                                            Email
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8 mt-2">
+                                        <input type="email" class="form-control" name="phone" tabindex="7"
+                                            placeholder="Email address" maxlength="80"required/>
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-md-4">
+                                        <label class="text-green pt-3">
+                                            Location
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8 mt-2">
+                                        <select class="form-select text-muted location-list">
+                                            <option disabled selected>Select location</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-md-4">
+                                        <label class="text-green pt-3">
+                                            List of tests
+                                        </label>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8 my-2">
+                                        <div class="w-100 my-2 d-inline-block">
+                                            <button class="btn btn-sm btn-outline-secondary float-end mx-1">
+                                                Add 
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-secondary float-end mx-1">
+                                                Remove
+                                            </button>
+                                        </div>
+                                        <div class="list-container p-1 mb-2 d-inline-block"></div>
+                                    </div>
+                                    <div class="col-12 border-top text-end pt-3">
+                                        <input type="reset" class="btn btn-success bg-green mx-1" value="Clear"/>
+                                        <input type="submit" class="btn btn-success bg-green mx-1" value="Send"/>
+                                    </div>
+                                </form>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get-started-s3 container-fluid minh-50vh bg-secondary px-0 border-top">
+            <div class="row w-100 mx-0 opacity-8">
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 bg-dark minh-50vh d-flex align-items-center">
+                    <p class="text-white lead p-3 text-center m-0">
+                        <span class="fw-bold">
+                            M<span class="text-logo rotate--15deg d-inline-block">e</span>dlab
+                        </span> 
+                        test centers are waiting <span class="fw-bold">for you</span>. 
+                        Our employees are always <span class="fw-bold">ready</span> 
+                        to <span class="fw-bold">help</span> you. Just come in and ask.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid text-white pt-3 border-top border-dark">
+        <div class="row w-100 mx-0 opacity-7">
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="border-bottom border-gray pb-2">
+                    Lab testing
+                </h6>
+                <ul class="list-unstyled text-end text-md-start">
+                    <li>
+                        <a href="get-started.html" class="small text-white text-decoration-none hover-bold">
+                            Get started
+                        </a>
+                    </li>
+                    <li>
+                        <a href="test-menu.html" class="small text-white text-decoration-none hover-bold">
+                            Test menu
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="border-bottom border-gray pb-2">
+                    Locations
+                </h6>
+                <ul class="list-unstyled text-end text-md-start">
+                    <li>
+                        <a href="locations.html" class="small text-white text-decoration-none hover-bold">
+                            Find
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="border-bottom border-gray pb-2">
+                    Company
+                </h6>
+                <ul class="list-unstyled text-end text-md-start">
+                    <li>
+                        <a href="news.html" class="small text-white text-decoration-none hover-bold">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about-us.html" class="small text-white text-decoration-none hover-bold">
+                            About us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="border-bottom border-gray pb-2">
+                    Customer
+                </h6>
+                <ul class="list-unstyled text-end text-md-start">
+                    <li>
+                        <a href="user.html" class="small text-white text-decoration-none hover-bold">
+                            Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 text-center border-top border-gray mt-4 px-0">
+                <div class="row w-100 mx-0">
+                    <div class="col-12 col-sm-6 px-0 order-2 order-sm-1">
+                        <p class="small mt-1 text-center text-sm-start">
+                            Copyright &copy; 2021 Tomasz Pankowski.
+                            <a href="privacy.html" class="text-light text-decoration-none hover-bold">
+                                Privacy policy.
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 text-center text-sm-start order-1 order-sm-2 px-0">
+                        <ul class="list-inline text-center text-sm-end my-2">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <span class="fa fa-facebook-square icon text-light hover-light-gray"></span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <span class="fa fa-instagram icon text-light hover-light-gray"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

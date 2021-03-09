@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="icon" href="img/favicon.png"/>
+    <title>Medlab | Test menu</title>
+</head>
+<body  data-bs-spy="scroll" data-bs-target="#test-list" tabindex="0">
+    <header class="position-absolute w-100 opacity-9">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a href="index.html" class="navbar-brand px-2">
+                <span class="navbar-text font-logo text-white font-shadow hover-green">
+                    M<span class="text-logo rotate--15deg d-inline-block">e</span>dlab
+                </span>
+            </a>
+            <button class="navbar-toggler p-1 me-3" 
+                data-bs-toggle="collapse"
+                data-bs-target="#main-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="nav navbar-nav ms-auto text-uppercase fw-bold px-4 font-menu text-end font-shadow">
+                    <li class="nav-item">
+                        <a href="get-started.html" class="nav-link text-light hover-green">Get started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="test-menu.html" class="nav-link text-light hover-green">Test menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="locations.html" class="nav-link text-light hover-green">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link text-light hover-green">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about-us.html" class="nav-link text-light hover-green">About us</a>
+                    </li>
+                    <li class="nav-item ms-md-3">
+                        <a href="user.html" class="nav-link text-light border border-light px-2 py-1 mt-1 btn-outline-success rounded-pill d-inline-block">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="test-menu-s1 container-fluid bg-secondary d-flex align-items-end py-4">
+            <div class="row w-100 mx-0">
+                <div class="col-11 col-sm-9 col-md-7 col-lg-5 mx-auto text-white text-center font-shadow">
+                    <h2 class="display-4 font-logo">Is it allergy or...</h2>
+                    <p class="initialism">
+                        We offer wide range of laboratory tests. All procedures are realized with 
+                        the highest accuracy in the shortest possible time. Check how we can help
+                        you.
+                    </p>
+                    <div class="text-center">
+                        <a href="#tests" class="btn btn-sm btn-success bg-green text-white mx-2">
+                            Go now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="gradient-spacer"></div>
+        <section class="test-menu-s2 container minh-50vh bg-white d-flex align-items-center py-4" id="tests">
+            <div class="row w-100 mx-0">
+                <div class="col-12 border-bottom">
+                    <h1 class="lead text-muted text-start">
+                        Available tests
+                    </h1>
+                </div>
+                <div class="col-12 col-md-4 my-4">
+                    <div class="list-group opacity-8 sticky-top" id="test-list">
+                        <a href="#cbc" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Complete Blood Count
+                        </a>
+                        <a href="#pt" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Prothrombin Time
+                        </a>
+                        <a href="#bmp" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Basic Metabolic Panel
+                        </a>
+                        <a href="#cmp" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Comprehensive Metabolic Panel
+                        </a>
+                        <a href="#lpp" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Lipid Panel
+                        </a>
+                        <a href="#lvp" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Liver Panel
+                        </a>
+                        <a href="#tsh" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Thyroid Stimulating Hormone
+                        </a>
+                        <a href="#ha" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Hemoglobin A1C
+                        </a>
+                        <a href="#ur" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Urinalysis
+                        </a>
+                        <a href="#clt" class="list-group-item list-group-item-action text-muted border-tag-left">
+                            Cultures
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 my-4">
+                     <table class="table table-striped table-hover">
+                         <thead>
+                            <tr class="bg-green text-white shadow">
+                                <th class="w-25">Test</th>
+                                <th>Description</th>
+                            </tr>
+                         </thead>
+                         <tbody>
+                             <tr class="text-muted" id="cbc">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Complete Blood Count
+                                </td>
+                                <td class="small">
+                                    This test, also known as a CBC, is the most common blood test performed. 
+                                    It measures the types and numbers of cells in the blood, including red 
+                                    and white blood cells and platelets. This test is used to determine 
+                                    general health status, screen for disorders and evaluate nutritional 
+                                    status. It can help evaluate symptoms such as weakness, fatigue and 
+                                    bruising, and can help diagnose conditions such as anemia, leukemia, 
+                                    malaria and infection.
+                                </td>
+                             </tr>
+                             <tr class="text-muted" id="pt">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Prothrombin Time
+                                </td>
+                                <td class="small">
+                                    Also known as PT and Pro Time, this test measures how long it takes blood 
+                                    to clot. This coagulation test measures the presence and activity of five 
+                                    different blood clotting factors. This test can screen for bleeding 
+                                    abnormalities, and may also be used to monitor medication treatments 
+                                    that prevent the formation of blood clots.
+                                </td>
+                             </tr>
+                             <tr class="text-muted" id="bmp">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Basic Metabolic Panel
+                                </td>
+                                <td class="small">
+                                    This test measures glucose, sodium, potassium, calcium, chloride, carbon 
+                                    dioxide, blood urea nitrogen and creatinine which can help determine blood 
+                                    sugar level, electrolyte and fluid balance as well as kidney function. The 
+                                    Basic Metabolic Panel can help your doctor monitor the effects of medications 
+                                    you are taking, such as high blood pressure medicines, can help diagnose 
+                                    certain conditions, or can be part of a routine health screening. You may 
+                                    need to fast for up to 12 hours before this test.
+                                </td>
+                             </tr>
+                             <tr class="text-muted" id="cmp">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Comprehensive Metabolic Panel
+                                </td>
+                                <td class="small">
+                                    This test combines the Basic Metabolic Panel with six more tests for a more 
+                                    comprehensive evaluation of metabolic functions, with a focus on organ 
+                                    systems.
+                                </td>
+                             </tr>
+                             <tr class="text-muted" id="lpp">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Lipid Panel
+                                </td>
+                                <td class="small">
+                                    The lipid panel is a group of tests used to evaluate cardiac risk. It includes 
+                                    cholesterol and triglyceride levels.
+                                </td>
+                             </tr>
+                             <tr class="text-muted" id="lvp">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Liver Panel
+                                </td>
+                                <td class="small">
+                                    The liver panel is a combination of tests used to assess liver function and establish 
+                                    the possible presence of liver tumors.
+                                </td>
+                             </tr>
+                             <tr class="text-muted" id="tsh">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Thyroid Stimulating Hormone
+                                </td>
+                                <td class="small">
+                                    This test screens and monitors the function of the thyroid.
+                                </td>
+                             </tr>
+                             <tr class="text-muted" id="ha">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Hemoglobin A1C
+                                </td>
+                                <td class="small">
+                                    This test is used to diagnose and monitor diabetes.
+                                </td>
+                             </tr>
+                             <tr class="text-muted" id="ur">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Urinalysis
+                                </td>
+                                <td class="small">
+                                    Often the first lab test performed, this is a general screening 
+                                    test used to check for early signs of disease. It may also be 
+                                    used to monitor diabetes or kidney disease.
+                                </td>
+                             </tr>
+                             <tr class="text-muted" id="clt">
+                                <td class="text-green fw-bold text-center v-middle initialism">
+                                    Cultures
+                                </td>
+                                <td class="small">
+                                    Cultures are used to test for diagnosis and treatment of infections. 
+                                    Illnesses such as urinary tract infections, pneumonia, strep throat, 
+                                    MRSA and meningitis can be detected and tested for appropriate 
+                                    antibiotic treatment.
+                                </td>
+                             </tr>
+                         </tbody>
+                     </table>
+                </div>
+            </div>
+        </section>
+        <section class="test-menu-s3 container-fluid minh-50vh bg-secondary px-0 border-top">
+            <div class="row w-100 mx-0 opacity-8">
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 bg-dark minh-50vh d-flex align-items-center">
+                    <p class="text-white lead p-3 text-center m-0">
+                        All
+                        <span class="fw-bold">
+                            M<span class="text-logo rotate--15deg d-inline-block">e</span>dlab
+                        </span> test centers realizes diagnostic procedures with the highest
+                        <span class="fw-bold">accuracy</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid text-white pt-3 border-top border-dark">
+        <div class="row w-100 mx-0 opacity-7">
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="border-bottom border-gray pb-2">
+                    Lab testing
+                </h6>
+                <ul class="list-unstyled text-end text-md-start">
+                    <li>
+                        <a href="get-started.html" class="small text-white text-decoration-none hover-bold">
+                            Get started
+                        </a>
+                    </li>
+                    <li>
+                        <a href="test-menu.html" class="small text-white text-decoration-none hover-bold">
+                            Test menu
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="border-bottom border-gray pb-2">
+                    Locations
+                </h6>
+                <ul class="list-unstyled text-end text-md-start">
+                    <li>
+                        <a href="locations.html" class="small text-white text-decoration-none hover-bold">
+                            Find
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="border-bottom border-gray pb-2">
+                    Company
+                </h6>
+                <ul class="list-unstyled text-end text-md-start">
+                    <li>
+                        <a href="news.html" class="small text-white text-decoration-none hover-bold">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about-us.html" class="small text-white text-decoration-none hover-bold">
+                            About us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="border-bottom border-gray pb-2">
+                    Customer
+                </h6>
+                <ul class="list-unstyled text-end text-md-start">
+                    <li>
+                        <a href="user.html" class="small text-white text-decoration-none hover-bold">
+                            Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 text-center border-top border-gray mt-4 px-0">
+                <div class="row w-100 mx-0">
+                    <div class="col-12 col-sm-6 px-0 order-2 order-sm-1">
+                        <p class="small mt-1 text-center text-sm-start">
+                            Copyright &copy; 2021 Tomasz Pankowski.
+                            <a href="privacy.html" class="text-light text-decoration-none hover-bold">
+                                Privacy policy.
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 text-center text-sm-start order-1 order-sm-2 px-0">
+                        <ul class="list-inline text-center text-sm-end my-2">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <span class="fa fa-facebook-square icon text-light hover-light-gray"></span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <span class="fa fa-instagram icon text-light hover-light-gray"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
