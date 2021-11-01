@@ -87,7 +87,7 @@
 }
 
 /* line 59, ../sass/partials/_modules.scss */
-.form-control[type="text"], .form-control[type="date"], .form-control[type="tel"], .form-control[type="email"] {
+.form-control[type="text"], .form-control[type="date"], .form-control[type="tel"], .form-control[type="email"], .form-control[type="password"] {
   background-color: #ddd;
   border: 1px solid #ccc;
   border-bottom: 2px solid #bbb;
@@ -95,7 +95,7 @@
   opacity: 0.7;
 }
 /* line 60, ../sass/partials/_modules.scss */
-.form-control[type="text"]:focus, .form-control[type="date"]:focus, .form-control[type="tel"]:focus, .form-control[type="email"]:focus {
+.form-control[type="text"]:focus, .form-control[type="date"]:focus, .form-control[type="tel"]:focus, .form-control[type="email"]:focus, .form-control[type="password"]:focus {
   box-shadow: none;
   outline: none;
 }

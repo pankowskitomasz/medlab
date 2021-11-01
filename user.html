@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-    <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.min.css"/>
     <link rel="icon" href="img/favicon.png"/>
     <title>Medlab | User</title>
 </head>
@@ -49,14 +47,46 @@
     </header>
     <main>
         <section class="user-s1 container-fluid bg-secondary d-flex align-items-end py-4">            
-        </section>
-        <div class="gradient-spacer"></div>
-        <section class="user-s2 container minh-50vh bg-white d-flex align-items-start py-4" id="news">
             <div class="row w-100 mx-0">
-                
+                <div class="col-11 col-sm-9 col-md-7 col-lg-5 mx-auto text-white text-center font-shadow">
+                    <h2 class="display-4 font-logo">Login</h2>
+                    <p class="initialism">
+                        Start using our services now
+                    </p>
+                </div>
             </div>
         </section>
-        <section class="user-s3 container-fluid minh-25vh bg-secondary px-0 border-top">
+        <div class="gradient-spacer"></div>
+        <section class="user-s2 container minh-50vh bg-white d-flex align-items-center py-5" id="news">
+            <div class="row w-100 mx-0">
+                <div class="col-11 col-sm-7 col-md-6 col-lg-5 mx-auto">
+                    <div class="card border-green shadow p-0">
+                        <div class="card-header gradient-spacer h-100">
+                            <h6 class="text-white card-title mb-0 fw-bold">
+                                User login
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <form class="">
+                                <labe class="text-green">User name</label>
+                                <input type="text" class="form-control mb-3"/>
+                                <labe class="text-green">User password</label>
+                                <input type="password" class="form-control"/>
+                                <div class="pt-3 text-end">
+                                    <input type="reset" 
+                                        class="btn btn-sm btn-success bg-green text-white" 
+                                        value="Clear"/>
+                                    <input type="submit" 
+                                        class="btn btn-sm btn-success bg-green text-white"
+                                        value="Accept"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="user-s3 container-fluid minh-25vh bg-secondary px-0 border-top border-green">
             <div class="row w-100 mx-0 opacity-8">
                 <div class="col-12 col-sm-6 col-md-5 col-lg-4 bg-dark minh-25vh d-flex align-items-center py-5">
                     <p class="text-white lead p-3 text-center m-0">
@@ -135,7 +165,7 @@
                         <p class="small mt-1 text-center text-sm-start">
                             Copyright &copy; 2021 Tomasz Pankowski.
                             <a href="privacy.html" class="text-light text-decoration-none hover-bold">
-                                Privacy policy.
+                                Privacy&nbsp;policy.
                             </a>
                         </p>
                     </div>
@@ -157,7 +187,6 @@
             </div>
         </div>
     </footer>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>    
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.min.js"></script>  
 </body>
 </html>
