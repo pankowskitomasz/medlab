@@ -56,7 +56,7 @@
 }
 .form{
     &-control{
-        &[type="text"],&[type="date"],&[type="tel"],&[type="email"]{
+        &[type="text"],&[type="date"],&[type="tel"],&[type="email"],&[type="password"]{
             &:focus{
                 box-shadow: none;
                 outline: none;
