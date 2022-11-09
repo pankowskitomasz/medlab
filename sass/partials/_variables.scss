@@ -7,7 +7,7 @@ $font-logo__font-weight: 700;
 $font-logo__letter-spacing: 2px;
 $font-menu__font-size: 12px;
 $font-shadow: 0px 1px 3px #333;
-$footer__bg-color: #272e36;
+$footer__bg-color: $font-logo__color;
 $gradient-spacer__color-start: #fff;
 $gradient-spacer__color-end: $font-logo__color;
 $gradient-spacer__height: 10px;
